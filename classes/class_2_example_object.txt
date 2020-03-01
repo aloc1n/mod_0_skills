@@ -1,0 +1,17 @@
+dinner_reservation
+
+attributes:
+reservation_date: 2020-03-29T19:30:00-08:00
+customer_name: "Jane Smith"
+customer_email: "jane.smith@gmail.com"
+number_of_people: 2
+status: "Confirmed"
+
+
+methods **:
+cancel: "Cancelled"
+reschedule: 2020-04-05T19:30:00-08:00
+change_party_size: 4
+send_confirmation_email: (emails "Jane Smith" via "jane.smith@gmail.com" with 2020-03-29T19:30:00-08:00)
+
+** I'm making the assumption that each method call is in isolation.

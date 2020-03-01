@@ -1,0 +1,9 @@
+food = "impossible burger"
+is_delicious = true
+food = "bean burger"
+num2 = 9
+num7 = 35
+quotient = num7 / num2
+songs = ["One More Time", "Around The World", "Harder, Better, Faster, Stronger", "Get Lucky"]
+songs.shift
+food.count("bean burger")

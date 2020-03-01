@@ -1,0 +1,16 @@
+pizza_order
+
+attributes:
+order_type: "delivery"
+food_items: ["Plain cheese pizza", "Garlic Bread", "Mushroom Pizza"]
+drink_items: ["Cola", "Pepsi", "Sprite"]
+customer_name: "Bob Hoskins"
+customer_phone_number: "555-111-4444"
+
+methods **:
+add_new_food_item: ["Plain cheese pizza", "Garlic Bread", "Mushroom Pizza", "Hawaiian pizza"]
+substitute_food: ["Plain cheese pizza", "Mushroom Pizza", "Pepperoni pizza"]
+message_customer_order_status: (notifies "Bob Hoskins" via SMS message to "555-111-4444" with order status)
+remove_drink_item: ["Pepsi", "Sprite"]
+
+** I'm making the assumption that each method call is in isolation.

@@ -1,0 +1,14 @@
+OnlineOrder
+
+attributes:
+order_type: (string)
+food_items: (array)
+drink_items: (array)
+customer_name: (string)
+customer_phone_number: (string)
+
+methods:
+add_new_food_item: (add new food to food_items array)
+substitute_food: (remove existing food item and add new food item to food_items array)
+message_customer_order_status: (send message to customer_phone_number using customer_name with order status)
+remove_drink_item: (remove existing drink item from drink_items array)
